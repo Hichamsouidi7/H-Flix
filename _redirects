@@ -7,5 +7,4 @@
 /robots.txt            /robots.txt                 200
 /sitemap.xml           /sitemap.xml                200
 /llms.txt              /llms.txt                   200
-/sw.js                 /sw.js                      200
-/*                     /__shell.html               200
+/*                     /index.html                 200

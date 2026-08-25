@@ -70,6 +70,7 @@ Lors de vos commits sur GitHub, vous pouvez suivre ce modèle de versionnement :
 | `v1.0.0-clean` | `refactor: suppression des modules YouTube et Twitch` | Retrait des routes `/hub/*` et du tableau de plateformes |
 | `v1.0.0-web` | `feat: configuration Vercel, auto-VIP et polyfills web` | Ajout de `vercel.json`, headers de cache et bootstrap `index.html` |
 | `v1.0.0-docs` | `docs: ajout des guides de déploiement et d'avancement` | Ajout de `AVANCEMENT.md`, `DEPLOY_VERCEL.md` et `README.md` |
+| `v1.0.1-fix` | `fix: résolution de l'écran blanc sur Vercel et suppression des redirections SW` | Correction de `_redirects`, nettoyage du Service Worker `sw.js`, suppression de la boucle de rechargement et réécriture SPA Vercel universelle |
 
 ---
 

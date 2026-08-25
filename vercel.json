@@ -26,10 +26,6 @@
       "source": "/(.*)",
       "headers": [
         {
-          "key": "X-Content-Type-Options",
-          "value": "nosniff"
-        },
-        {
           "key": "Access-Control-Allow-Origin",
           "value": "*"
         }
@@ -38,7 +34,7 @@
   ],
   "rewrites": [
     {
-      "source": "/((?!assets/|avatars/|live/|wasm/|help/|platforms/|movix.*|robots.txt|sitemap.xml|llms.txt|sw.js|favicon.ico).*)",
+      "source": "/(.*)",
       "destination": "/index.html"
     }
   ]
