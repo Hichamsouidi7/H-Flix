@@ -1,7 +1,4 @@
 {
-  "version": 2,
-  "public": true,
-  "cleanUrls": true,
   "headers": [
     {
       "source": "/assets/(.*)",
@@ -31,10 +28,6 @@
         {
           "key": "X-Content-Type-Options",
           "value": "nosniff"
-        },
-        {
-          "key": "X-Frame-Options",
-          "value": "SAMEORIGIN"
         },
         {
           "key": "Access-Control-Allow-Origin",
