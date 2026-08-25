@@ -1,0 +1,1 @@
+import"./i18n-BS9PF_wV.js";import{r as e}from"./vipUtils-CQzMqt60.js";function t(){return e()}export{t};

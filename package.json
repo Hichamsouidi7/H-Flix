@@ -1,0 +1,24 @@
+{
+  "name": "h-flix-web",
+  "productName": "H-Flix Web",
+  "version": "1.0.0",
+  "description": "H-Flix Web - Plateforme de streaming Films, Séries, Animés et TV en direct",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server.cjs",
+    "start": "node server.cjs",
+    "preview": "node server.cjs",
+    "build": "echo Web build already compiled and optimized"
+  },
+  "keywords": [
+    "streaming",
+    "movies",
+    "series",
+    "live-tv",
+    "iptv",
+    "h-flix"
+  ],
+  "author": "H-Flix Team",
+  "license": "CC-BY-NC-4.0"
+}

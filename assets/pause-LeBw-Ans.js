@@ -1,0 +1,1 @@
+import{t as e}from"./createLucideIcon-CcOq-2cP.js";var t=e(`Pause`,[[`rect`,{width:`4`,height:`16`,x:`6`,y:`4`,key:`iffhe4`}],[`rect`,{width:`4`,height:`16`,x:`14`,y:`4`,key:`sjin7j`}]]);export{t};

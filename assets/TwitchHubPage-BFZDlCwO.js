@@ -1,0 +1,1 @@
+import"./rolldown-runtime-BM3Ffeng.js";import{f as e,y as t}from"./react-vendor-B2zTXonl.js";import{t as n}from"./HubWebView-0GQMU56p.js";t();var r=e(),i=()=>(0,r.jsx)(n,{url:`https://www.twitch.tv`,serviceName:`Twitch`,accentClass:`text-purple-500`});export{i as TwitchHubPage,i as default};

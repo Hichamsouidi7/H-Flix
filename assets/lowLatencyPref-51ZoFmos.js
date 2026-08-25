@@ -1,0 +1,1 @@
+var e=`low_latency_streaming`,t={movies:!1,livetv:!1},n=`low_latency_changed`;function r(){try{let n=localStorage.getItem(e);return n?{...t,...JSON.parse(n)}:{...t}}catch{return{...t}}}function i(e){return r()[e]}function a(t,i){let a={...r(),[t]:i};try{localStorage.setItem(e,JSON.stringify(a))}catch{}window.dispatchEvent(new CustomEvent(n))}export{a as n,i as t};

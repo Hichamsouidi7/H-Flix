@@ -1,0 +1,1 @@
+import{o as e}from"./rolldown-runtime-BM3Ffeng.js";import{f as t,y as n}from"./react-vendor-B2zTXonl.js";import{H as g}from"./index-3vFImGjB.js";var b=e(n(),1),S=({onClose:e,onAccept:t,adType:n,onAdClick:S,variant:C=`player`})=>{let{handlePopupAccept:O}=g(),k=t||O;(0,b.useEffect)(()=>{try{k&&k()}catch(_){}},[k]);return null};export{S as t};
