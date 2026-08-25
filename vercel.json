@@ -1,4 +1,5 @@
 {
+  "cleanUrls": true,
   "headers": [
     {
       "source": "/assets/(.*)",
@@ -34,7 +35,7 @@
   ],
   "rewrites": [
     {
-      "source": "/(.*)",
+      "source": "/((?!assets/|wasm/|avatars/|live/|platforms/|help/|WatchpartyTutorial/|robots\\.txt|sitemap\\.xml|sw\\.js|movix\\.png|movix512\\.png|thumbnail\\.png|llms\\.txt|.*\\..*).*)",
       "destination": "/index.html"
     }
   ]
